@@ -1012,6 +1012,7 @@ export default {
             axios.post(Url, { type: 1 })
                 .then(response => {
                     this.Countries = response.data;
+                    //Test
                  })
                 .catch(function (error) {
                     alert("ERROR: " + (error.message | error));
