@@ -1,0 +1,412 @@
+﻿
+[dir='rtl'] div.footable-loader>span.fooicon { 
+    left: auto;
+    right: 50%; 
+}
+img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 993px) {
+    .card-body ul.stepper.horizontal .step-title {
+        max-width: 20.75rem;
+    }
+
+    .card-body ul.stepper.horizontal .step-new-content {
+        height: auto;
+    }
+    /*.card-body ul.stepper.horizontal { 
+    height: auto;
+    overflow: visible;
+}*/
+}
+
+
+.trans-bg {
+    background: none;
+}
+
+.dis-box-shadow {
+    box-shadow: none;
+}
+
+.md-form label {
+    pointer-events: none;
+}
+
+legend {
+    width: auto;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #4caf50;
+    background-image: -webkit-gradient(linear,left top,right top,from(#017567),color-stop(#098a78),color-stop(#159f89),color-stop(#20b59a),to(#2ccbab)) !important;
+    background-image: -webkit-linear-gradient(left,#017567,#098a78,#159f89,#20b59a,#2ccbab) !important;
+    background-image: -o-linear-gradient(left,#017567,#098a78,#159f89,#20b59a,#2ccbab) !important;
+    background-image: linear-gradient(to right,#017567,#098a78,#159f89,#20b59a,#2ccbab) !important;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+fieldset {
+    border: 1px solid #afafaf;
+    padding: 0 10px;
+    min-height: 140px;
+}
+
+/* Fix Theme Bug */
+
+/*.select-wrapper ul { 
+    top: 100% !important;
+  
+}*/
+
+.select-wrapper {
+    padding-top: 3px;
+}
+
+
+.md-accordion .card .card-body {
+    margin-top: 12px;
+}
+
+.meeting-date {
+    text-align: center;
+}
+
+    .meeting-date td {
+        position: relative;
+        cursor: pointer;
+    }
+
+        .meeting-date td:not(.booked):hover {
+            background-color: #e9fffb;
+        }
+
+        .meeting-date td:after {
+            font: normal normal normal 25px FontAwesome;
+            content: "\f00c";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -12px;
+            margin-top: -12px;
+            color: #20b59a;
+        }
+
+        .meeting-date td.active {
+            background-color: #00a47a !important;
+        }
+
+            .meeting-date td.active:after {
+                color: #ffffff;
+            }
+
+        .meeting-date td.booked {
+            cursor: default;
+        }
+
+            .meeting-date td.booked:after {
+                content: "\f05e";
+                color: #ff6868;
+            }
+
+        .meeting-date td:before {
+            content: "متاح";
+            font-size: 12px;
+            bottom: 2px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            right: 0;
+            color: #d8d8d8;
+        }
+
+        .meeting-date td.booked:before {
+            content: "محجوز";
+            font-size: 12px;
+            bottom: 2px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            right: 0;
+            color: #d8d8d8;
+        }
+
+
+
+@media (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1000px;
+    }
+}
+
+
+[dir=rtl] ul.stepper .step-new-content {
+    margin-right: 27px;
+    margin-left: 0px;
+}
+
+
+.pills-secondary li.active > a {
+    color: #fff !important;
+    background: rgba(198, 148, 0, 0.55) !important;
+}
+
+
+.hide-element {
+    display: none;
+}
+
+.radioTextBoxHolder label {
+    font-weight: bold;
+}
+
+.radioTextBoxHolder .md-form {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.view.view-cascade .white-text {
+    font-weight: bold;
+}
+
+
+/* Updates 4-22-2019 */
+
+ul.stepper .step-actions {
+    display: block;
+}
+
+.step-actions .btn.btn-primary, .controlsFooter .btn.btn-primary {
+    float: left;
+}
+
+.step-actions .btn, .controlsFooter .btn {
+    min-width: 150px;
+}
+
+@media(max-width:420px) {
+    .step-actions .btn, .controlsFooter .btn {
+        width: 96%;
+        float: none !important;
+    }
+
+    .card.card-cascade .view.view-cascade.gradient-card-header {
+        display: block !important;
+    }
+
+        .card.card-cascade .view.view-cascade.gradient-card-header > div, .card.card-cascade .view.view-cascade.gradient-card-header > span {
+            width: 100% !important;
+            display: block !important;
+            /* position: relative; */
+            margin: auto !important;
+        }
+}
+
+.side-nav .collapsible li a:hover {
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+.form-control.disabled, input[disabled] {
+    color: #787373 !important;
+    cursor: not-allowed !important;
+    background-image: none !important;
+    background-color: #f9f9f9 !important;
+    padding-right: 0px !important;
+    padding-left: 3px !important;
+    margin-top: 3px;
+}
+
+[dir="rtl"] .form-control.disabled, [dir="rtl"] input[disabled] {
+    padding-right: 3px !important;
+    padding-left: 0px !important;
+    margin-top: 3px;
+}
+
+.caret.disabled {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .hideXS {
+        display: none;
+    }
+}
+
+
+.page-link {
+    padding: .5rem .75rem !important;
+}
+
+[dir=rtl] ul.stepper .step-title {
+    padding: .9688rem 3.5rem 1.5rem 2.25rem;
+}
+
+
+ /* Arrow Steps MHegazy 4-29-2019 */
+ 
+  
+/* Breadcrups CSS */
+.arrow-steps   { 
+    margin-left:-5px !important;
+        margin-right:-5px !important
+}
+
+.arrow-steps .step {
+       font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    margin: 0 3px;
+    padding: 10px 10px 10px 35px;
+    min-width: 110px;
+    position: relative;
+    background-color: #4D4D4D;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color 0.2s ease;
+    margin-top: 5px;
+}
+
+[dir=rtl] .arrow-steps .step { 
+    padding: 10px 35px 10px 10px;
+}
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+content: " ";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    border-bottom: 33px solid transparent;
+    border-left: 17px solid #4D4D4D;
+    z-index: 2;
+    transition: border-color 0.2s ease;
+}
+[dir=rtl] .arrow-steps .step:after,
+[dir=rtl] .arrow-steps .step:before { 
+    right: auto;
+    left: -17px;  
+     border-left: 0px; 
+    border-right: 17px solid #4D4D4D; 
+}
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+
+[dir=rtl] .arrow-steps .step:before {
+	right: 0;
+	left: auto;
+	border-left: 0px ;	
+	border-right: 17px solid #fff;	
+	z-index: 0;
+}
+.arrow-steps .step:first-child:before , .arrow-steps .step:last-child:after{
+	border: none;
+}
+
+.arrow-steps .step:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+[dir=rtl] .arrow-steps .step:first-child {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+		border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.arrow-steps .step:last-child {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+[dir=rtl] .arrow-steps .step:last-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+		border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.arrow-steps .step span {
+	position: relative;
+        display: table-cell;
+    vertical-align: middle;
+    height: 46px;
+    
+    line-height: 20px;
+}
+
+.arrow-steps .step span:before {
+    font: normal normal normal 18px/1 FontAwesome;
+    content: "\f058";
+	opacity: 0; 
+	position: absolute;
+	top: -4px;
+	left: -24px;
+}
+[dir=rtl] .arrow-steps .step span:before { 
+	    left: auto;
+		right: -24px;
+}
+
+.arrow-steps .step.done span:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease 0.5s;
+	-moz-transition: opacity 0.3s ease 0.5s;
+	-ms-transition: opacity 0.3s ease 0.5s;
+	transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+	color: #fff;
+	background-color: rgba(198, 148, 0, 0.64);
+}
+
+.arrow-steps .step.current:after {
+	border-left: 17px solid rgba(198, 148, 0, 0.64);	
+}
+
+[dir=rtl] .arrow-steps .step.current:after {
+	border-left: 0px solid rgba(198, 148, 0, 0.64);
+	border-right: 17px solid rgba(198, 148, 0, 0.64);	
+}
+
+.arrow-steps .step.done {
+	color: #fff;
+	background-color: #009587;
+}
+
+.arrow-steps .step.done:after {
+	border-left: 17px solid #009587;	
+}
+
+[dir=rtl] .arrow-steps .step.done:after {
+	border-left: 0px solid #009587;
+	border-right: 17px solid #009587;	
+}
+
+
+@media only screen and (max-width: 1260px) { 
+    .arrow-steps .step { 
+    min-width: 30%; 
+}
+
+}
+
+@media only screen and (max-width: 600px) { 
+    .arrow-steps .step { 
+    min-width: 45%; 
+}
+
+}
+

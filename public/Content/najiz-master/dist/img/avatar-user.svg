@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="126px" viewBox="0 0 126 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>avatar-user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="63" cy="63" r="63"></circle>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="avatar-user">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#E7ECED" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="noun_profile_466240_000000" mask="url(#mask-2)" fill="#329184">
+                <g transform="translate(17.000000, 28.000000)">
+                    <circle id="Oval" fill-opacity="0.85" opacity="0.899716332" cx="45.1232859" cy="22.7410262" r="22.4383556"></circle>
+                    <path d="M83.6892095,65.5982853 L54.2388678,53.9864363 C48.4356577,56.5664891 41.8109141,56.5664891 36.0077039,53.9864363 L6.55736225,65.5982853 C2.6938847,67.4779955 0.243217301,71.3990633 0.246574748,75.6955454 L0.246571303,109.999997 L90.0000005,109.999997 L89.999997,75.6955454 C90.0033545,71.3990633 87.5526871,67.4779955 83.6892095,65.5982853 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

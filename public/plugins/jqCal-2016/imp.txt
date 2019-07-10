@@ -1,0 +1,25 @@
+﻿    <script src="../plugins/jq-calendar-update-mo/jqCal-2016/jquery.plugin.js"></script>
+    <script src="../plugins/jq-calendar-update-mo/jqCal-2016/jquery.calendars.js"></script>
+    <script src="../plugins/jq-calendar-update-mo/jqCal-2016/jquery.calendars.picker.js"></script>
+    <script src="../plugins/jq-calendar-update-mo/jqCal-2016/jquery.calendars.plus.js"></script>
+    <script src="../plugins/jq-calendar-update-mo/jqCal-2016/jquery.calendars.ummalqura.js"></script>
+    <link href="../plugins/jq-calendar-update-mo/jqCal-2016/mo-jquery.calendars.pickerUpdate.css" rel="stylesheet" />
+
+
+    <link href="../Content/calendar.css" rel="stylesheet" />
+    <!--  -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //$.calendarsPicker
+            $('.popupDatepicker-um').calendarsPicker({ calendar: $.calendars.instance('ummalqura') });
+            $('.popupDatepicker-ml').calendarsPicker({
+                calendar: $.calendars.instance(),
+                onChangeMonthYear: function () {
+                    alert()
+                }
+            });
+            $('.popupDatepicker-ml').prop('readonly', true);
+            $('.popupDatepicker-um').prop('readonly', true);
+
+        });
+    </script>
